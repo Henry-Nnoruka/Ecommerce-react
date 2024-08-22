@@ -1,0 +1,36 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    gap: 8px;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    text-transform: capitalize;
+  }
+  
+  .breadcrum img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .breadcrum a {
+    color: #e60023;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .breadcrum a:hover {
+    color: #c5001d;
+  }
+  
+  .breadcrum a:last-child {
+    color: #333;
+    cursor: default;
+  }
+  
+  .breadcrum span {
+    margin-right: 8px;
+    color: #555;
+  }
+  
